@@ -1,0 +1,21 @@
+.development{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card_content{
+    width: 22rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 4rem;
+    height: 20rem;
+}
+.card_content h2{
+    color: rgb(0, 255, 157);
+}

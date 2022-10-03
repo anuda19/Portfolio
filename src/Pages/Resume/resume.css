@@ -1,0 +1,8 @@
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.experience{
+    cursor: pointer;
+}
