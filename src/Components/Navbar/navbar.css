@@ -10,6 +10,7 @@
 }
 .nav_items{
     display: flex;
+    color: aqua;
 }
 .nav_list{
     display: flex;

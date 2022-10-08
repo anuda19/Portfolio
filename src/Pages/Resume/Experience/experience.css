@@ -1,0 +1,29 @@
+.experience_main{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.l-n-e h5{
+    color: aqua;
+}
+.experience_main p{
+    color: rgb(0, 251, 255);
+    font-weight: bold;
+}
+.l-n-e{
+    width: 40%;
+    border: 1px solid aqua;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.filament{
+    width: 40%;
+    border: 1px solid aqua;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.filament h5{
+    color: aqua;
+}

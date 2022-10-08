@@ -1,4 +1,61 @@
+.price_main{
+    box-sizing: border-box;
+}
 .price_cards{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+.price_main h2{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+span{
+    color: aqua;
+    margin-right: .5rem;
+}
+.price{
+    color: aqua;
+    margin-left: 1rem;
+}
+.price_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.card_layout{
+    width: 17rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1px 3px 10px 0px;    
+}
+.card_layout:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card_layout h3{
+    color: aqua;
+}
+.price_card_btn{
+    display: flex;
+    justify-content: center;
+}
+.card_btn{
+    color: aqua;
+    background-color: black;
+    padding: .2rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+.card_btn:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.cross_icon{
+    color: red;
 }

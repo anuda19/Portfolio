@@ -1,0 +1,17 @@
+
+.card_img img{
+    border-radius: 1rem;
+}
+.buton button{
+    color: aqua;
+    background-color: rgb(28, 27, 27);
+    padding: .3rem;
+    border-radius: .6rem;
+    margin: .2rem;
+}
+.card_details h4{
+    color: aqua;
+}
+.card_details h6{
+    color: white;
+}

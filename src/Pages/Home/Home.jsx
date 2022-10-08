@@ -10,12 +10,12 @@ const Home = () => {
         <img src={backImg} alt="backgroundImage" />
         <div className="left">
         <h1>Hello,</h1>
-        <h2>I Am Developer</h2>
+        <h2>I Am a <span>Developer/Designer</span> </h2>
         <p>If you want to grow your business make your online presence with us. <br /> Take your business to the next level. </p>
         </div>
         <div className="bttn">
-            <button>Hire Me</button>
-            <button>Get Quote</button>
+            <button className='butn1'>Hire Me</button>
+            <button className='butn2'>Get Quote</button>
         </div>
         <div className="avtar_img">
         <img src={avtar} alt="avtarImage" />

@@ -8,7 +8,7 @@ import img5 from '../../Assets/todo.png'
 import img6 from '../../Assets/weather.jpg'
 import './portfolio.css'
 
-const Portfolo = () => {
+const Portfolio = () => {
     const cardsArr = [
         {
             img: img1,
@@ -19,25 +19,25 @@ const Portfolo = () => {
         {
             img: img2,
             heading: "CRM",
-            para:"CRM Aplication",
+            para:"CRM Application",
             appLink: "https://crm-app-reactjs.netlify.app"
         },
         {
             img: img3,
             heading: "Insta Cart",
-            para:"E-Commerce Aplication",
+            para:"E-Commerce Application",
             appLink: "https://instacart-in.netlify.app"
         },
         {
             img: img4,
             heading: "Google Books",
-            para:"Google Boks Api Aplication",
+            para:"Google Books Api Application",
             appLink: "https://google-books-with-api.netlify.app"
         },
         {
             img: img5,
             heading: "Todo",
-            para:"Todo Aplication",
+            para:"Todo Application",
             appLink: "https://todoappwith-react.netlify.app"
         },
         {
@@ -48,8 +48,10 @@ const Portfolo = () => {
         }
     ]
   return (
-    <div>
+    <div className='portflio_main'>
+        <div className='portflio_heading'>
         <h2>My Portfolio</h2>
+        </div>
         <div className="card_main">
         {cardsArr.map((item)=>{
             const {img, heading, para, appLink} = item;
@@ -69,4 +71,4 @@ const Portfolo = () => {
   )
 }
 
-export default Portfolo
+export default Portfolio;

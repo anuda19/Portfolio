@@ -1,29 +1,32 @@
 .skill_main{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .bar{
-    background-color: rgb(42, 58, 58);
+    background-color: white;
     width: 30rem;
-    height: 10px;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
 }
 .progress{
-    height: 10px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgb(79, 79, 246), rgb(111, 236, 111), rgb(226, 151, 151), yellow);
+    background: linear-gradient(135deg, rgb(79, 79, 246), rgb(111, 236, 111), rgb(226, 151, 151), rgb(3, 3, 3));
     animation: fillBars 1s;
+}
+.skill_data h5{
+    margin-bottom: -10px;
+    color: aliceblue;
 }
 .percent{
     animation: fillBars 1s;
-    border-radius: 5px;
     font-weight: bold;
     display: flex;
     justify-content: end;
+    color: aliceblue;
 }
 .skill_main span{
-    color: rgb(228, 12, 12);
+    color: aqua;
+    font-size: xx-large;
 }
 @keyframes fillBars {
     from{

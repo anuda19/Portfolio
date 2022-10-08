@@ -2,7 +2,17 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    color: aliceblue;
 }
-.experience{
+
+.active{
+    color: aqua;
+}
+.head{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.heading h5{
     cursor: pointer;
 }

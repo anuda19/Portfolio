@@ -1,7 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service_heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: aqua;
+}
 .development{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    position: relative;
 }
 .services{
     display: flex;
@@ -11,11 +25,27 @@
 .card_content{
     width: 22rem;
     border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
     margin-bottom: 4rem;
-    height: 20rem;
+    height: 17rem;
+    box-shadow: 5px 5px 15px 3px;
 }
-.card_content h2{
+.card_content span{
     color: rgb(0, 255, 157);
+    font-size: xx-large;
 }
+.card_content:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media screen and (max-width: 600px) {
+    .development {
+      /* display: flex;
+      justify-content: center; */
+      width: auto;
+    }
+  }

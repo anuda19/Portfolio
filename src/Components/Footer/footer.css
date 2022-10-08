@@ -1,0 +1,6 @@
+.footer{
+    background-color: blueviolet;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}

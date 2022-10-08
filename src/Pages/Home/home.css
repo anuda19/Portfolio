@@ -1,21 +1,28 @@
 .home_main img{
     width: 100%;
-    height: 600px;
+    height: 35rem;
     position: relative;
 }
-
 .left {
     position: absolute;
     top: 10rem;
     left: 5rem;
-    color: aliceblue;
+    color: antiquewhite;
 }
-
+.left span{
+    color: aqua;
+}
 .bttn{
     position: absolute;
     top: 20rem;
     left: 5rem;
-    color: aliceblue;
+}
+.butn1{
+    color: aqua;
+}
+.butn2{
+    color: aqua;
+    margin-left: 1rem;
 }
 .avtar_img img{
     position: absolute;
@@ -26,9 +33,8 @@
 }
 .bttn button{
     font-size: larger;
-    background-color: rgb(28, 221, 221);
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
-    /* margin: 10px; */
     font-weight: bold;
     padding: 5px;
 }

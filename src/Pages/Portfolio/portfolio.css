@@ -1,10 +1,27 @@
-.card_main{
-    /* width: 450px; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.portflio_heading{
+  color: aqua;
   display: flex;
+  justify-content: space-around;
+}
+.card_main{
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-
 }
 .card-section{
     margin: 10px;
+    /* background-color: black; */
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.card-section:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
