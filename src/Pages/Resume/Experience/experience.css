@@ -27,3 +27,14 @@
 .filament h5{
     color: aqua;
 }
+
+@media screen and (max-width: 400px) {
+    .l-n-e{
+        width: auto;
+        margin: 1rem;
+    }
+    .filament{
+        width: auto;
+        margin: 1rem;
+    }
+}

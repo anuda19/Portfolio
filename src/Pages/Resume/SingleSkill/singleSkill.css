@@ -1,7 +1,6 @@
 .skill_main{
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
 }
 .bar{
     background-color: white;
@@ -33,5 +32,10 @@
         width: 0px;
     }to{
         max-width: 90%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bar{
+        width: 15rem;
     }
 }

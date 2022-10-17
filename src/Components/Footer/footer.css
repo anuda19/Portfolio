@@ -1,6 +1,13 @@
-.footer{
-    background-color: blueviolet;
-    color: antiquewhite;
+.footer_main{
+    background-color: aqua;
+    color: white;
+  }
+  .footer_main p{
+    color: #ece4e4;
+    font-weight: bold;
+  }
+  .footer_mid{
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }

@@ -27,8 +27,7 @@ const Services = () => {
           <h4><span><CgDigitalocean /></span> Digital Marketing</h4>
           <p>
             Digital marketing producing a campaign is costly and time-consuming,
-            and there’s no guarantee that it will net you a positive ROI. So,
-            Here we are to solve your problem.
+            and there’s no guarantee that it will net you a positive ROI.
           </p>
         </div>
         <div className="card_content">
@@ -51,18 +50,14 @@ const Services = () => {
           <h4><span><MdDomain /></span> Domain & Hosting</h4>
           <p>
             Using multiple domains in your content marketing strategy can be a
-            great way to support or even start brand new campaigns. And with
-            several domain registrars available on the market, it’s incredibly
-            easy to pick out and purchase a new domain name or two for your
-            business.
+            great way to support or even start brand new campaigns.
           </p>
         </div>
         <div className="card_content">
           <h4><span><MdBusinessCenter /></span> Business Strategy</h4>
           <p>
             I throw myself down among the tall grass by the stream as Ilie close
-            to the earth. We’ll help you optimize your business processes to
-            maximize profitability and eliminate unnecessary costs.
+            to the earth. 
           </p>
         </div>
       </div>

@@ -3,9 +3,38 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer'>
-        <h5>Copyright 2022, &copy; Digi Serves Pvt. Ltd.</h5>
-    </div>
+    <footer class="footer_main mt-5">
+        <h3 class=" text-center pt-2">Digi Serves</h3>
+        <p class=" text-center">Visit Help Center</p>
+        <div class="footer_mid">
+            <div class="account">
+                <h4>Account</h4>
+                <p>Wallet</p>
+                <p>Payments</p>
+                <p>Refers & Earn</p>
+                <p>Sopport</p>
+                <p>FAQ</p>
+                <p>Rate us on the Play Store</p>
+            </div>
+            <div class="company">
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Our Offerings</p>
+                <p>Blog</p>
+                <p>Career</p>
+                <p>Gift Cards</p>
+            </div>
+            <div class="products">
+                <h4>Products</h4>
+                <p>Web Development</p>
+                <p>Digital Marketing</p>
+                <p> SEO Optimisation</p>
+                <p>UI/UX Design</p>
+                <p>Domain & Hosting</p>
+                <p>Business Strategy</p>
+            </div>
+        </div>
+    </footer>
   )
 }
 
