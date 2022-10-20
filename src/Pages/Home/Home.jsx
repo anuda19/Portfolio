@@ -6,7 +6,7 @@ import './home.css'
 const Home = () => {
   return (
     <>
-    <div className='home_main'>
+    <div className='home_main' id='home'>
         <img src={backImg} alt="backgroundImage" />
         <div className="left">
         <h1>Hello,</h1>

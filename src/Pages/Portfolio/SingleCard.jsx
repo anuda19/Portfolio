@@ -2,9 +2,12 @@ import React from 'react'
 import { FiEye } from 'react-icons/fi'
 import './singleCard.css'
 
-const SingleCard = ({img, heading, para, appLink}) => {
+const SingleCard = ({img, heading, para, appLink, srcCode}) => {
   const handleClick = ()=>{
     window.open(appLink)
+  }
+  const sourceCode = ()=>{
+    window.open(srcCode)
   }
 
   return (
@@ -18,7 +21,7 @@ const SingleCard = ({img, heading, para, appLink}) => {
         </div>
         <div className="buton">
             <button onClick={handleClick}> Live Preview <FiEye/></button>
-            <button>Source Code</button>
+            <button onClick={sourceCode}>Source Code</button>
         </div>
     </div>
   )

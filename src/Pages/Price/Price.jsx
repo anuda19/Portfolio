@@ -5,7 +5,7 @@ import "./price.css";
 
 const Price = () => {
   return (
-    <div className="price_main">
+    <div className="price_main" id="price">
       <h2>Price</h2>
       <div className="price_cards">
         <div className="card_layout">

@@ -50,8 +50,8 @@ const Info = () => {
           <h6>
             <span>
               <FaFacebookSquare />
-            </span>{" "}
-            Facebook{" "}
+            </span>
+            Facebook
           </h6>
           <h6>
             <span>

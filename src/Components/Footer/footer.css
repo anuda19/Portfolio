@@ -1,6 +1,6 @@
 .footer_main{
-    background-color: aqua;
-    color: white;
+    background-color: rgb(19, 18, 18);
+    color: aqua;
   }
   .footer_main p{
     color: #ece4e4;
@@ -10,4 +10,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+  }
+  .footer_logo{
+    color: aqua;
   }

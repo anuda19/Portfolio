@@ -15,7 +15,7 @@ const Resume = () => {
   };
 
   return (
-    <div>
+    <div id="resume">
       <hr />
       <h2 className="head">My Resume</h2>
       <div className="heading">

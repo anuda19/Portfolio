@@ -34,6 +34,7 @@ const Footer = () => {
                 <p>Business Strategy</p>
             </div>
         </div>
+        <h6 className='text-light text-center'>Copyright <span className='footer_logo'>&copy;</span> All Right Reserved by <span className='footer_logo'>Digi Serves</span> Pvt. Ltd.</h6>
     </footer>
   )
 }
