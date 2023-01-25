@@ -11,7 +11,7 @@ import "./services.css";
 
 const Services = () => {
   return (
-    <div>
+    <div data-aos="flip-up">
       <div className="service_heading" id="services">
       <h2>What We Do</h2>
       </div>

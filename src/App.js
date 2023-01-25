@@ -7,10 +7,7 @@ import Price from "./Pages/Price/Price";
 import Resume from "./Pages/Resume/Resume";
 import Services from "./Pages/Services/Services";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css'
-
-
-
+import './App.css';
 
 function App() {
 

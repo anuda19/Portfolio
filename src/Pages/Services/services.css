@@ -32,18 +32,22 @@
     margin-bottom: 4rem;
     height: 17rem;
     box-shadow: 5px 5px 15px 3px;
+    animation: 1s ease-out 0s 1 slideInLeft;;
 }
 .card_content span{
     color: rgb(0, 255, 157);
     font-size: xx-large;
 }
 .card_content:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 1s;
 }
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
 
-/* @media screen and (max-width: 400px) {
-    .development {
-      width: auto;
-    }
-  } */
+}

@@ -8,7 +8,7 @@ const Price = () => {
     <div className="price_main" id="price">
       <h2>Price</h2>
       <div className="price_cards">
-        <div className="card_layout">
+        <div className="card_layout" data-aos="zoom-in">
           <h3>Basic</h3>
           <div className="price_heading">
             <h5>Single Page</h5>
@@ -50,7 +50,7 @@ const Price = () => {
             <button className="card_btn">Order Now</button>
           </div>
         </div>
-        <div className="card_layout">
+        <div className="card_layout" data-aos="zoom-in">
           <h3>Standard</h3>
           <div className="price_heading">
             <h5>Multipage Page</h5>
@@ -92,7 +92,7 @@ const Price = () => {
             <button className="card_btn">Order Now</button>
           </div>
         </div>
-        <div className="card_layout">
+        <div className="card_layout" data-aos="zoom-in">
           <h3>Premium</h3>
           <div className="price_heading">
             <h5>Multipage Page</h5>

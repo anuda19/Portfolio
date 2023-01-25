@@ -70,7 +70,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="skill">
+    <div className="skill my-3">
       <div className="front_end_skill">
         <h2>Frontend Skills</h2>
         {frontEndSkillArr.map((skill) => {

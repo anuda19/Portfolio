@@ -31,6 +31,7 @@ span{
     margin-bottom: 2rem;
     border-radius: 1rem;
     box-shadow: 1px 3px 10px 0px;    
+    animation: 1s ease-out 0s 1 slideInLeft;
 }
 .card_layout:hover{
     transform: scale(1.1);
@@ -59,3 +60,11 @@ span{
 .cross_icon{
     color: red;
 }
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

@@ -8,7 +8,7 @@ import {
   FaLinkedin,
   FaPhoneAlt,
 } from "react-icons/fa";
-import dp from "../../Assets/dpp.jpg";
+import dp from "../../Assets/ProfileImg.jpeg";
 import "./info.css";
 
 const Info = () => {

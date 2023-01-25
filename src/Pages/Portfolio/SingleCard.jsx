@@ -11,7 +11,7 @@ const SingleCard = ({img, heading, para, appLink, srcCode}) => {
   }
 
   return (
-    <div className='portfolio_main'>
+    <div className='portfolio_main' data-aos="flip-up">
         <div className="card_img">
             <img src={img} alt="project-img" style={{height:"200px", width:"300px"}}/>
         </div>

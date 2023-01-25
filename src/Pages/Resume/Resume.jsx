@@ -17,7 +17,7 @@ const Resume = () => {
   return (
     <div id="resume">
       <hr />
-      <h2 className="head">My Resume</h2>
+      <h2 className="head my-3">My Resume</h2>
       <div className="heading">
         <h5 className={skill[0] ? "active" : "no-active"} onClick={handlePro}>
           Professional Skills
